@@ -20,7 +20,7 @@ Shell
   ```
 
 - `!$` To get the last argument from the last command
-  ````
+  ```
   g++ hello-world.cpp -o hello-world
   ./!$
-  ````
+  ```

@@ -45,7 +45,7 @@
   const int a = (34/.2) * 5/9;
 
   // This is 0. Parentheses, Divide (0 because division with integer returns integer value), Multiply
-  const int a = 5/9 * (34/.2)
+  const int a = 5/9 * (34/.2);
   ```
 
 - To not say `std::` all the time, do this:
@@ -54,9 +54,23 @@
   using namespace std;
 
   int main(){
-      cout << "This is the same thing!" << endl
+      cout << "This is the same thing!" << endl;
   }
   ```
+
+- Use braced variables to make sure that the values are the same as the specified type
+
+  ```
+  // results in compiling but removes the extension
+  int age = 1.2;
+
+  // results in not compiling
+  int age {1.2};
+
+  // results in age being 0
+  int age {}
+  ```
+- `unsigned` makes it so that the number won't accept negative numbers
 
 ## Operators
 
@@ -84,10 +98,26 @@
 ## Data Types
 
 - int
+- long
+- long long
+- short
+- float
+- long double
 - double
 - char
 - string
 - bool
+- auto; let the compiler decide
+
+## Number Systems
+
+- Decimal (0 - 9)
+    `int a = 255`
+- Binary  (0 - 1)
+    `int a = 0b11111111;`
+- Hexadecimal (0 - 9 - a - f)
+    `int a = 0xff;`
+
 
 ## Variables
 

@@ -1,7 +1,6 @@
 ## iostream
 
 - istream object: cin
-
 - ostream objects: cout, cerr, clog
 
 ## Miscellaneous
@@ -47,6 +46,16 @@
 
   // This is 0. Parentheses, Divide (0 because division with integer returns integer value), Multiply
   const int a = 5/9 * (34/.2)
+  ```
+
+- To not say `std::` all the time, do this:
+
+  ```
+  using namespace std;
+
+  int main(){
+      cout << "This is the same thing!" << endl
+  }
   ```
 
 ## Operators

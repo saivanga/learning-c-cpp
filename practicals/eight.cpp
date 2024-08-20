@@ -1,9 +1,3 @@
-/*
-
-Write a program to reverse a three digit number. For example : if the user enters 123, then the program should print 321. Ask the user for input.
-
-*/
-
 #include <iostream>
 
 using namespace std;

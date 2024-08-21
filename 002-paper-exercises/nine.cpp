@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+    cout << "This Program takes a five digit and adds them; 12345 becomes 15" << endl;
+    cout << "--------------------------------------" << endl;
     int number;
     cout << "What number should be added: ";
     cin >> number;

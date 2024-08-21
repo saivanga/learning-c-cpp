@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+    cout << "This Program takes the first and last number in a five digit number and subtracts them; 12345, 5 - 1 = 4" << endl;
+    cout << "--------------------------------------" << endl;
     int number;
     cout << "What number: ";
     cin >> number;

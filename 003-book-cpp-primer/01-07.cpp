@@ -1,9 +1,9 @@
 #include <iostream>
 
-/*
-    this is */
-incorrectly nested
-        * /
+// /*
+//     this is */
+// incorrectly nested
+//         * /
 
     int main()
 {

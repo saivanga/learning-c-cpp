@@ -4,8 +4,10 @@ using namespace std;
 
 int main()
 {
-    cout << "all the " << endl;
-    cout << "glitters" << endl;
-    cout << "are not";
-    cout << "gold";
+    cout << "This Program prints one line using multiple statements" << endl;
+    cout << "--------------------------------------" << endl;
+    cout << "all the  ";
+    cout << "glitters ";
+    cout << "are not ";
+    cout << "gold ";
 }

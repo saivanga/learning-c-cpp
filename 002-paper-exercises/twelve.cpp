@@ -5,6 +5,8 @@ using namespace std;
 
 int main()
 {
+    cout << "This Program prints distance to cities in KM, M, CM, IN using given distances" << endl;
+    cout << "--------------------------------------" << endl;
     int cityOne;
     cout << "Distance to city 1: ";
     cin >> cityOne;

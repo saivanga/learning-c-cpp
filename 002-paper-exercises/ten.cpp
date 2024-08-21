@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+    cout << "This Program prints the aggreate grade using given data" << endl;
+    cout << "--------------------------------------" << endl;
     int marksOne;
     cout << "What are your marks for Subject 1 out of 100: ";
     cin >> marksOne;

@@ -4,16 +4,18 @@ using namespace std;
 
 int main()
 {
+    cout << "This Program prints the area and the perimeter using the given length and width" << endl;
+    cout << "--------------------------------------" << endl;
     double length;
-    double witdh;
+    double width;
 
     cout << "What is the width of the rectangle: ";
-    cin >> witdh;
+    cin >> width;
 
     cout << "What is the length of the rectangle: ";
     cin >> length;
 
-    cout << "The area is: " << length * witdh << endl;
-    cout << "The perimeter is: " << 2 * length + 2 * witdh << endl;
+    cout << "The area is: " << length * width << endl;
+    cout << "The perimeter is: " << 2 * length + 2 * width << endl;
     return 0;
 }

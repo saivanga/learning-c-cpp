@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+    cout << "This Program prints converts celsius to fahrenheit" << endl;
+    cout << "--------------------------------------" << endl;
     double celsius;
 
     cout << "What Temperature: ";
